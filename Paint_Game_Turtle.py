@@ -25,7 +25,7 @@ def square(start, end):
 
 def circle(start, end):
     "Draw circle from start to end."
-    pass  # TODO
+    pass  # En desarrollo
 
 def rectangle(start, end):
     "Draw rectangle from start to end."
