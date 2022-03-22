@@ -25,6 +25,9 @@ def square(start, end):
 
 def circle(start, end):
     "Draw circle from start to end."
+    t = turtle.Turtle() 
+    r = 100
+    t.circle(r) 
     pass  # En desarrollo
 
 def rectangle(start, end):
