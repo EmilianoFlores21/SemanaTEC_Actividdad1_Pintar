@@ -29,8 +29,14 @@ def circle(start, end):
     goto(start.x, start.y)
     down()
     begin_fill()
-    circle(endx-startx)
+    
+    for count in range(359):
+        forward((2*3.14*(end.x-start.x))/360)
+        left(1)
+        tracer(30, 1)
+    
     end_fill()
+    tracer(1,1)
     pass  # En desarrollo
 
 def rectangle(start, end):
